@@ -14,7 +14,7 @@ A simple user management system built using **React** and **Material-UI**, featu
 
 ## Demo
 
-![User Management Screenshot](https://via.placeholder.com/800x400.png?text=Demo+Coming+Soon)  
+![User Management Screenshot](demo.png)  
 *(Replace with an actual screenshot)*
 
 ## Installation
