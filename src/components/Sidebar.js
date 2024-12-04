@@ -25,12 +25,12 @@ const Sidebar = () => {
             backgroundColor : "transparent",
           }}
           onMouseEnter={(e) => {
-            e.target.style.backgroundColor = "#909EEF"; // Darken the background on hover
-            e.target.style.color = "white"; // Ensure text is white
+            e.target.style.backgroundColor = "#909EEF"; 
+            e.target.style.color = "white"; 
           }}
           onMouseLeave={(e) => {
-            e.target.style.backgroundColor = "transparent"; // Reset the background color
-            e.target.style.color = "white"; // Ensure text remains white
+            e.target.style.backgroundColor = "transparent"; 
+            e.target.style.color = "white";
           }}
         >
           <ListItemIcon style={{ color: "white" }}>
@@ -47,12 +47,12 @@ const Sidebar = () => {
             textDecoration: "none",
           }}
           onMouseEnter={(e) => {
-            e.target.style.backgroundColor = "#909EEF"; // Darken the background on hover
-            e.target.style.color = "white"; // Ensure text is white
+            e.target.style.backgroundColor = "#909EEF"; 
+            e.target.style.color = "white"; 
           }}
           onMouseLeave={(e) => {
-            e.target.style.backgroundColor = "transparent"; // Reset the background color
-            e.target.style.color = "white"; // Ensure text remains white
+            e.target.style.backgroundColor = "transparent";
+            e.target.style.color = "white";
           }}
         >
           <ListItemIcon style={{ color: "white" }}>
@@ -69,12 +69,12 @@ const Sidebar = () => {
             textDecoration: "none",
           }}
           onMouseEnter={(e) => {
-            e.target.style.backgroundColor = "#909EEF"; // Darken the background on hover
-            e.target.style.color = "white"; // Ensure text is white
+            e.target.style.backgroundColor = "#909EEF"; 
+            e.target.style.color = "white"; 
           }}
           onMouseLeave={(e) => {
-            e.target.style.backgroundColor = "transparent"; // Reset the background color
-            e.target.style.color = "white"; // Ensure text remains white
+            e.target.style.backgroundColor = "transparent"; 
+            e.target.style.color = "white"; 
           }}
         >
           <ListItemIcon style={{ color: "white" }}>

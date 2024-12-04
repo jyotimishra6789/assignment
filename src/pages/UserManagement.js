@@ -20,7 +20,7 @@ const UserManagement = () => {
     };
 
     const getStatusColor = (status) => {
-        return status === "Active" ? "green" : "red"; // Green for active, red for inactive
+        return status === "Active" ? "green" : "red"; 
     };
 
     const columns = [
@@ -65,12 +65,12 @@ const UserManagement = () => {
                     sx={{
                         '& .MuiDataGrid-columnHeader': {
                             '&:hover': {
-                                backgroundColor: '#f0f0f0',  // Header hover effect
+                                backgroundColor: '#f0f0f0',  
                             },
                         },
                         '& .MuiDataGrid-row': {
                             '&:hover': {
-                                backgroundColor: '#f5f5f5',  // Row hover effect
+                                backgroundColor: '#f5f5f5',  
                             },
                         },
                     }} 

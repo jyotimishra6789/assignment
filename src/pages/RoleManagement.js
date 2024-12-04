@@ -24,24 +24,23 @@ const RoleManagement = () => {
     { id: 4, name: "Contributor", permissions: "Edit, View", status: "Active" },
   ];
 
-  // State for roles, search, and filter
+  
   const [roles, setRoles] = useState(initialRoles);
   const [searchTerm, setSearchTerm] = useState("");
   const [filterStatus, setFilterStatus] = useState("");
 
-  // Handle search
+ 
   const handleSearch = (e) => {
     setSearchTerm(e.target.value);
   };
 
-  // Handle filter
   const handleFilter = (e) => {
     setFilterStatus(e.target.value);
   };
   const getStatusColor = (status) => {
-    return status === "Active" ? "green" : "red"; // Green for active, red for inactive
+    return status === "Active" ? "green" : "red"; 
   };
-  // Filter and search roles dynamically
+ 
   const filteredRoles = roles.filter((role) => {
     return (
       role.name.toLowerCase().includes(searchTerm.toLowerCase()) &&
@@ -75,7 +74,7 @@ const RoleManagement = () => {
         </FormControl>
       </div>
 
-      {/* Table to display roles */}
+     
       <TableContainer component={Paper}>
         <Table>
           <TableHead>
