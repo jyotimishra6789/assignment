@@ -13,8 +13,7 @@ A simple user management system built using **React** and **Material-UI**, featu
 - **Hover Effects:** Smooth row and column header hover effects for enhanced user experience.
 
 ## Demo
-
-![User Management Screenshot](./demo.png))  
+![User Management Screenshot](./src/demo.png) 
 *(Replace with an actual screenshot)*
 
 ## Installation
